@@ -1,0 +1,119 @@
+/* General Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Ensuring font consistency */
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.nav, .nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Cart Items CSS */
+#cartItems {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.list-group-item h5, .list-group-item small {
+    margin: 0;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-sm, .btn-buy {
+    padding: 5px 10px;
+    line-height: normal; /* Adjusted for better vertical alignment */
+    font-size: 14px; /* Standard size for button text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Buy button specific styles */
+.btn-buy {
+    background-color: #007bff; /* Blue background for visibility */
+    color: white; /* White text for contrast */
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-buy:hover {
+    background-color: #0056b3; /* Darker on hover for interactive feedback */
+}
+
+/* Store Selector Styles */
+.select-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-container label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#storeSelect {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#storeSelect:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 0.2rem rgba(0,86,179,0.25);
+}
+
+#storeSelect:hover {
+    background-color: #f7f7f7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .list-group-item {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

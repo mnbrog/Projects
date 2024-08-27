@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Html", "Html", "{B3FB811A-6C8F-45BA-8D68-663C29E8FE6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{3D187446-0F61-42D9-8897-A2967012051D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{E24E8DD1-01EC-44B5-9F00-5F190838D397}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookBook", "Html\client\resources\csharp\CookBook.csproj", "{648EC516-6BCE-4322-90EA-2BE031EE63CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{648EC516-6BCE-4322-90EA-2BE031EE63CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648EC516-6BCE-4322-90EA-2BE031EE63CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648EC516-6BCE-4322-90EA-2BE031EE63CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648EC516-6BCE-4322-90EA-2BE031EE63CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D187446-0F61-42D9-8897-A2967012051D} = {B3FB811A-6C8F-45BA-8D68-663C29E8FE6A}
+		{E24E8DD1-01EC-44B5-9F00-5F190838D397} = {3D187446-0F61-42D9-8897-A2967012051D}
+		{648EC516-6BCE-4322-90EA-2BE031EE63CE} = {E24E8DD1-01EC-44B5-9F00-5F190838D397}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01ADAE15-D0F4-4BB8-AD49-C210EC8D0948}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Html", "Html", "{0BF88609-39CD-4F66-8CAD-2A529BA926E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{F602B486-D039-48A1-B6F9-515E51439ECC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{F357BB90-3670-4FB9-9221-F621C41015A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookBook", "Html\client\resources\csharp\CookBook.csproj", "{7BC7353E-CCFF-4E07-B87C-AF6066120B18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BC7353E-CCFF-4E07-B87C-AF6066120B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC7353E-CCFF-4E07-B87C-AF6066120B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC7353E-CCFF-4E07-B87C-AF6066120B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC7353E-CCFF-4E07-B87C-AF6066120B18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F602B486-D039-48A1-B6F9-515E51439ECC} = {0BF88609-39CD-4F66-8CAD-2A529BA926E5}
+		{F357BB90-3670-4FB9-9221-F621C41015A8} = {F602B486-D039-48A1-B6F9-515E51439ECC}
+		{7BC7353E-CCFF-4E07-B87C-AF6066120B18} = {F357BB90-3670-4FB9-9221-F621C41015A8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44EF40FB-1C11-4B18-90F7-DE4D5BB711FC}
+	EndGlobalSection
+EndGlobal

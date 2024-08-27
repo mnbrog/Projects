@@ -1,0 +1,5 @@
+C:\Users\Michael Brogan\2024SpringRepo\database\obj\Debug\net7.0\database.csproj.AssemblyReference.cache
+C:\Users\Michael Brogan\2024SpringRepo\database\obj\Debug\net7.0\database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael Brogan\2024SpringRepo\database\obj\Debug\net7.0\database.AssemblyInfoInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\database\obj\Debug\net7.0\database.AssemblyInfo.cs
+C:\Users\Michael Brogan\2024SpringRepo\database\obj\Debug\net7.0\database.csproj.CoreCompileInputs.cache

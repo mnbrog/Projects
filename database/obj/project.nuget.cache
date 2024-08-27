@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "L8+PVy5YslnzPWphtdtKuasqja8FYCsgO/gmA/cSG4pM6KMVOgEh6khUu/fajLF6MM5DPPxSyZZOAU0S6JtGnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Michael Brogan\\2024SpringRepo\\database\\database.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Michael Brogan\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.118\\stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
+    "C:\\Users\\Michael Brogan\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512"
+  ],
+  "logs": []
+}

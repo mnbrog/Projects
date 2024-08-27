@@ -1,0 +1,134 @@
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif; /* Ensures the font is readable */
+  background-color: #f4f4f4; /* Light grey background for the page */
+  color: #333; /* Dark grey text for readability */
+  line-height: 1.6; /* Makes text more readable */
+  padding: 20px; /* Padding around the content to avoid sticking to the edges */
+}
+
+/* Header styles */
+header {
+  background: #007bff; /* Blue background for header */
+  color: #ffffff; /* White text for contrast */
+  padding: 10px 0; /* Padding above and below the text */
+  text-align: center; /* Centers the text */
+}
+
+/* Navigation link styles */
+nav a {
+  color: #ffffff; /* Ensures nav links are white */
+  padding: 10px; /* Adds space around the links */
+  margin: 0 5px; /* Space between links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+nav a:hover {
+  background-color: #0056b3; /* Darker blue on hover for better interaction feedback */
+}
+
+/* Container styling */
+.container {
+  background: #ffffff; /* White background for content area */
+  padding: 20px; /* Padding inside the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Card styling for recipes */
+.card {
+  margin: 10px; /* Space between cards */
+  background: #ffffff; /* White background */
+  border: none; /* Removes border */
+  border-radius: 10px; /* Rounded corners for the cards */
+  overflow: hidden; /* Ensures nothing spills out */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15); /* Shadow for 3D effect */
+}
+
+.card img {
+  width: 100%; /* Ensures image covers the card top */
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.card-body {
+  padding: 15px; /* Padding inside the card */
+  text-align: center; /* Centering the text inside the card */
+}
+
+/* Buttons general styling */
+button {
+  background-color: #007bff; /* Bootstrap blue */
+  color: #ffffff; /* Text color */
+  border: none; /* No borders */
+  padding: 10px 20px; /* Padding around text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Indicates that it's clickable */
+  transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}
+
+/* Specific styles for filter buttons */
+.filter-buttons button {
+  margin-bottom: 10px; /* Space below each button */
+  width: 200px; /* Ensures all buttons are the same width */
+}
+
+/* Modal styling */
+.modal-content {
+  background: #ffffff; /* White background for modals */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.modal-header, .modal-body, .modal-footer {
+  padding: 20px; /* Uniform padding for modal sections */
+}
+
+.modal-title {
+  color: #333; /* Dark text for visibility */
+}
+
+/* Apply specific styling for category buttons if they need to stand out */
+.category-btn {
+  background-color: #28a745; /* Green for category buttons */
+}
+
+.category-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+/* Container for filter buttons for clear grouping and layout */
+.filter-buttons {
+  text-align: center; /* Center align the buttons */
+  padding: 20px; /* Padding for spacing inside the container */
+  margin-bottom: 30px; /* Extra space below the button container */
+}
+
+/* Styling specific to all buttons inside the filter-buttons container */
+.filter-buttons button {
+  padding: 10px 25px; /* Generous padding for easier clicking */
+  font-size: 16px; /* Readable font size */
+  font-weight: bold; /* Bold font for better visibility */
+  color: #fff; /* White text for contrast */
+  background-color: #007bff; /* Consistent blue background */
+  border: none; /* No borders for a cleaner look */
+  border-radius: 5px; /* Slightly rounded corners for a modern feel */
+  margin: 5px; /* Margin around buttons to avoid clumping */
+  cursor: pointer; /* Cursor indicates the button is clickable */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover and focus effects for buttons */
+.filter-buttons button:hover,
+.filter-buttons button:focus {
+  background-color: #0056b3; /* A darker blue for hover/focus states */
+  outline: none; /* Removing outline keeps the design clean */
+}
+
+/* Active state styling to give feedback on click */
+.filter-buttons button:active {
+  background-color: #004085; /* Even darker blue to simulate button press */
+  transform: scale(0.98); /* Slightly shrink the button to simulate pressing */
+}

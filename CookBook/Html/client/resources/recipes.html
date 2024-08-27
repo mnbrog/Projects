@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="../resources/styles/styles.css"> <!-- Ensure you link to your CSS -->
+</head>
+<body>
+    <h1>Recipes</h1>
+    <div id="recipesContainer"></div>
+<!-- Recipe Details Modal -->
+<div id="recipeModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+  
+    <script>
+       document.addEventListener('DOMContentLoaded', function() {
+    const params = new URLSearchParams(window.location.search);
+    const category = params.get('category');
+    document.querySelector('h1').textContent = `${category} Recipes`;
+    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${category}`)
+        .then(response => response.json())
+        .then(data => displayRecipes(data.meals))
+        .catch(error => console.error('Error fetching recipes:', error));
+});
+
+function displayRecipes(recipes) {
+    const container = document.getElementById('recipesContainer');
+    container.innerHTML = ''; // Clear existing content
+
+    recipes.forEach(recipe => {
+        const recipeCard = document.createElement('div');
+        recipeCard.className = 'recipe-card';
+
+        const image = document.createElement('img');
+        image.src = recipe.strMealThumb;
+        image.alt = recipe.strMeal;
+        recipeCard.appendChild(image);
+
+        const content = document.createElement('div');
+        content.className = 'content';
+        const title = document.createElement('h4');
+        title.textContent = recipe.strMeal;
+        content.appendChild(title);
+
+        const detailsBtn = document.createElement('button');
+        detailsBtn.textContent = 'View Details';
+        detailsBtn.className = 'details-btn';
+        detailsBtn.onclick = () => fetchRecipeDetails(recipe.idMeal);
+        content.appendChild(detailsBtn);
+
+        recipeCard.appendChild(content);
+        container.appendChild(recipeCard);
+    });
+}
+
+function fetchRecipeDetails(idMeal) {
+    const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${idMeal}`;
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            const recipeDetails = data.meals[0];
+            displayRecipeModal(recipeDetails);
+        })
+        .catch(error => console.error('Error fetching recipe details:', error));
+}
+
+function displayRecipeModal(recipe) {
+    const modal = document.getElementById('recipeModal');
+    const modalContent = document.getElementById('modalContent');
+    modalContent.innerHTML = `<h3>${recipe.strMeal}</h3>
+        <img src="${recipe.strMealThumb}" alt="${recipe.strMeal}" style="width:100%;">
+        <p><strong>Instructions:</strong> ${recipe.strInstructions}</p>
+        <h4>Ingredients:</h4>
+        <ul>${generateIngredientsList(recipe)}</ul>
+    `;
+
+    // Display the modal
+    modal.style.display = "block";
+
+    // Close the modal when the user clicks on <span> (x)
+    document.querySelector('.close').addEventListener('click', function() {
+        modal.style.display = "none";
+    });
+
+    // Also close the modal if the user clicks outside of it
+    window.addEventListener('click', function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    });
+}
+
+function generateIngredientsList(recipe) {
+    let ingredientsList = '';
+    for(let i = 1; i <= 20; i++) {
+        const ingredient = recipe[`strIngredient${i}`];
+        const measure = recipe[`strMeasure${i}`];
+        if(ingredient && measure) {
+            ingredientsList += `<li>${ingredient} - ${measure}</li>`;
+        }
+    }
+    return ingredientsList;
+}
+
+
+    </script>
+</body>
+</html>

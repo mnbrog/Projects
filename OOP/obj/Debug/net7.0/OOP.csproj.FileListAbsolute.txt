@@ -1,0 +1,14 @@
+C:\Users\Michael Brogan\2024SpringRepo\OOP\obj\Debug\net7.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael Brogan\2024SpringRepo\OOP\obj\Debug\net7.0\OOP.AssemblyInfoInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\OOP\obj\Debug\net7.0\OOP.AssemblyInfo.cs
+C:\Users\Michael Brogan\2024SpringRepo\OOP\obj\Debug\net7.0\OOP.csproj.CoreCompileInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\OOP\bin\Debug\net7.0\OOP.exe
+C:\Users\Michael Brogan\2024SpringRepo\OOP\bin\Debug\net7.0\OOP.deps.json
+C:\Users\Michael Brogan\2024SpringRepo\OOP\bin\Debug\net7.0\OOP.runtimeconfig.json
+C:\Users\Michael Brogan\2024SpringRepo\OOP\bin\Debug\net7.0\OOP.dll
+C:\Users\Michael Brogan\2024SpringRepo\OOP\bin\Debug\net7.0\OOP.pdb
+C:\Users\Michael Brogan\2024SpringRepo\OOP\obj\Debug\net7.0\OOP.dll
+C:\Users\Michael Brogan\2024SpringRepo\OOP\obj\Debug\net7.0\refint\OOP.dll
+C:\Users\Michael Brogan\2024SpringRepo\OOP\obj\Debug\net7.0\OOP.pdb
+C:\Users\Michael Brogan\2024SpringRepo\OOP\obj\Debug\net7.0\OOP.genruntimeconfig.cache
+C:\Users\Michael Brogan\2024SpringRepo\OOP\obj\Debug\net7.0\ref\OOP.dll

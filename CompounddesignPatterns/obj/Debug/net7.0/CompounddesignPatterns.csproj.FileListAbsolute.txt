@@ -1,0 +1,14 @@
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\obj\Debug\net7.0\CompounddesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\obj\Debug\net7.0\CompounddesignPatterns.AssemblyInfoInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\obj\Debug\net7.0\CompounddesignPatterns.AssemblyInfo.cs
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\obj\Debug\net7.0\CompounddesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\bin\Debug\net7.0\CompounddesignPatterns.exe
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\bin\Debug\net7.0\CompounddesignPatterns.deps.json
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\bin\Debug\net7.0\CompounddesignPatterns.runtimeconfig.json
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\bin\Debug\net7.0\CompounddesignPatterns.dll
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\bin\Debug\net7.0\CompounddesignPatterns.pdb
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\obj\Debug\net7.0\CompounddesignPatterns.dll
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\obj\Debug\net7.0\refint\CompounddesignPatterns.dll
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\obj\Debug\net7.0\CompounddesignPatterns.pdb
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\obj\Debug\net7.0\CompounddesignPatterns.genruntimeconfig.cache
+C:\Users\Michael Brogan\2024SpringRepo\CompounddesignPatterns\obj\Debug\net7.0\ref\CompounddesignPatterns.dll

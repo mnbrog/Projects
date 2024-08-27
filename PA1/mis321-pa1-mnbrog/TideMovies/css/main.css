@@ -1,0 +1,286 @@
+  body {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #ef4444; /* red-500 */
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+  }
+
+  form {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+  align-items: center; /* Center align the form items */
+  max-width: 500px; /* Maximum width of the form */
+  margin-left: auto; /* Center the form horizontally */
+  margin-right: auto;
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 100%; /* Full width */
+  padding: 12px;
+  margin-bottom: 16px; /* Space between input fields */
+  border: 1px solid #dc2626; /* red-600 */
+  border-radius: 5px;
+  background-color: #f3f4f6; /* gray-200 */
+  color: #1f2937; /* gray-800 */
+}
+
+/* Button styles */
+button[type="submit"] {
+  background-color: #ef4444; /* red-500 */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  width: 100%; /* Full width */
+}
+
+button[type="submit"]:hover {
+  background-color: #dc2626; /* red-600 */
+}
+
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+  }
+
+  .movie-item {
+    background-color: #1f2937; /* gray-800 */
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+  }
+
+  .movie-item h2 {
+    color: #ef4444; /* red-500 */
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .movie-item p {
+    color: #9ca3af; /* gray-400 */
+    margin-bottom: 8px;
+  }
+
+  .movie-item .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .movie-item button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .favorite-button {
+    background-color: #ef4444; /* red-500 */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .favorite-button:hover {
+    background-color: #dc2626; /* red-600 */
+  }
+
+  .watch-button {
+    background-color: #f3f4f6; /* gray-100 */
+    color: black;
+  }
+
+  .watch-button:hover {
+    background-color: #e5e7eb; /* gray-200 */
+  }
+
+  .delete-button {
+    background-color: #9ca3af; /* gray-500 */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .delete-button:hover {
+    background-color: #6b7280; /* gray-600 */
+  }
+
+  .footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #666;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .go-to-top:hover {
+    opacity: 1;
+  }
+  .movie-item {
+    background-color: #2a2e35; /* Darker gray for the movie card background */
+    color: #ffffff; /* White color for text */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Distribute space between elements */
+  }
+
+  .movie-item h2 {
+    color: #ef4444; /* red-500 */
+    font-size: 1.5em; /* Larger font size for movie title */
+    margin-bottom: 15px;
+  }
+
+  .movie-item p {
+    color: #9ca3af; /* gray-400 */
+    margin-bottom: 10px;
+    font-size: 1em; /* Standard font size for text */
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button-group button,
+  .button-group a {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1em; /* Standard font size for buttons */
+    text-align: center; /* Center text in buttons */
+  }
+
+  .favorite-button {
+    background-color: #ef4444; /* red-500 */
+    color: white;
+  }
+
+  .favorite-button:hover {
+    background-color: #dc2626; /* red-600 */
+  }
+
+  .watch-button {
+    background-color: #f3f4f6; /* gray-100 */
+    color: black;
+  }
+
+  .watch-button:hover {
+    background-color: #e5e7eb; /* gray-200 */
+  }
+
+  .delete-button {
+    background-color: #9ca3af; /* gray-500 */
+    color: white;
+  }
+
+  .delete-button:hover {
+    background-color: #6b7280; /* gray-600 */
+  }
+  .movie-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 items in a row */
+  gap: 16px; /* Space between cards */
+}
+
+.movie-item {
+  background-color: #2a2e35; /* Darker gray for the movie card background */
+  color: #ffffff; /* White color for text */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  justify-content: space-between; /* Distribute space between elements */
+  align-items: center; /* Align items to center horizontally */
+  text-align: center; /* Center text */
+}
+
+.movie-item h2 {
+  color: #ef4444; /* red-500 */
+  font-size: 1.5em; /* Larger font size for movie title */
+  margin-bottom: 15px;
+}
+
+.movie-item p {
+  color: #9ca3af; /* gray-400 */
+  margin-bottom: 10px;
+  font-size: 1em; /* Standard font size for text */
+}
+
+.button-group {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  width: 100%; /* Take full width */
+}
+
+.button-group button,
+.button-group a {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1em; /* Standard font size for buttons */
+  margin: 0 5px; /* Space between buttons */
+}
+
+

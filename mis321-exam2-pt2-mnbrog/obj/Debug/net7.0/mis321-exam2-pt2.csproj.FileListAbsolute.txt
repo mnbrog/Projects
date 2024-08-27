@@ -1,0 +1,28 @@
+/Users/annelarimer/Downloads/mis321-exam2-pt2/obj/Debug/net7.0/mis321-exam2-pt2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/annelarimer/Downloads/mis321-exam2-pt2/obj/Debug/net7.0/mis321-exam2-pt2.AssemblyInfoInputs.cache
+/Users/annelarimer/Downloads/mis321-exam2-pt2/obj/Debug/net7.0/mis321-exam2-pt2.AssemblyInfo.cs
+/Users/annelarimer/Downloads/mis321-exam2-pt2/obj/Debug/net7.0/mis321-exam2-pt2.csproj.CoreCompileInputs.cache
+/Users/annelarimer/Downloads/mis321-exam2-pt2/bin/Debug/net7.0/mis321-exam2-pt2
+/Users/annelarimer/Downloads/mis321-exam2-pt2/bin/Debug/net7.0/mis321-exam2-pt2.deps.json
+/Users/annelarimer/Downloads/mis321-exam2-pt2/bin/Debug/net7.0/mis321-exam2-pt2.runtimeconfig.json
+/Users/annelarimer/Downloads/mis321-exam2-pt2/bin/Debug/net7.0/mis321-exam2-pt2.dll
+/Users/annelarimer/Downloads/mis321-exam2-pt2/bin/Debug/net7.0/mis321-exam2-pt2.pdb
+/Users/annelarimer/Downloads/mis321-exam2-pt2/obj/Debug/net7.0/mis321-exam2-pt2.dll
+/Users/annelarimer/Downloads/mis321-exam2-pt2/obj/Debug/net7.0/refint/mis321-exam2-pt2.dll
+/Users/annelarimer/Downloads/mis321-exam2-pt2/obj/Debug/net7.0/mis321-exam2-pt2.pdb
+/Users/annelarimer/Downloads/mis321-exam2-pt2/obj/Debug/net7.0/mis321-exam2-pt2.genruntimeconfig.cache
+/Users/annelarimer/Downloads/mis321-exam2-pt2/obj/Debug/net7.0/ref/mis321-exam2-pt2.dll
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\bin\Debug\net7.0\mis321-exam2-pt2.exe
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\bin\Debug\net7.0\mis321-exam2-pt2.deps.json
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\bin\Debug\net7.0\mis321-exam2-pt2.runtimeconfig.json
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\bin\Debug\net7.0\mis321-exam2-pt2.dll
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\bin\Debug\net7.0\mis321-exam2-pt2.pdb
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\obj\Debug\net7.0\mis321-exam2-pt2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\obj\Debug\net7.0\mis321-exam2-pt2.AssemblyInfoInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\obj\Debug\net7.0\mis321-exam2-pt2.AssemblyInfo.cs
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\obj\Debug\net7.0\mis321-exam2-pt2.csproj.CoreCompileInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\obj\Debug\net7.0\mis321-exam2-pt2.dll
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\obj\Debug\net7.0\refint\mis321-exam2-pt2.dll
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\obj\Debug\net7.0\mis321-exam2-pt2.pdb
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\obj\Debug\net7.0\mis321-exam2-pt2.genruntimeconfig.cache
+C:\Users\Michael Brogan\2024SpringRepo\mis321-exam2-pt2-mnbrog\obj\Debug\net7.0\ref\mis321-exam2-pt2.dll

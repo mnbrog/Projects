@@ -1,0 +1,14 @@
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\obj\Debug\net7.0\Adapter + Factory Pattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\obj\Debug\net7.0\Adapter + Factory Pattern.AssemblyInfoInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\obj\Debug\net7.0\Adapter + Factory Pattern.AssemblyInfo.cs
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\obj\Debug\net7.0\Adapter + Factory Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\bin\Debug\net7.0\Adapter + Factory Pattern.exe
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\bin\Debug\net7.0\Adapter + Factory Pattern.deps.json
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\bin\Debug\net7.0\Adapter + Factory Pattern.runtimeconfig.json
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\bin\Debug\net7.0\Adapter + Factory Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\bin\Debug\net7.0\Adapter + Factory Pattern.pdb
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\obj\Debug\net7.0\Adapter + Factory Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\obj\Debug\net7.0\refint\Adapter + Factory Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\obj\Debug\net7.0\Adapter + Factory Pattern.pdb
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\obj\Debug\net7.0\Adapter + Factory Pattern.genruntimeconfig.cache
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Factory Pattern\obj\Debug\net7.0\ref\Adapter + Factory Pattern.dll

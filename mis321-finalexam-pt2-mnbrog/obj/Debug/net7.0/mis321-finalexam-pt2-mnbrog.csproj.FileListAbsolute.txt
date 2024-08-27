@@ -1,0 +1,14 @@
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\bin\Debug\net7.0\mis321-finalexam-pt2-mnbrog.exe
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\bin\Debug\net7.0\mis321-finalexam-pt2-mnbrog.deps.json
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\bin\Debug\net7.0\mis321-finalexam-pt2-mnbrog.runtimeconfig.json
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\bin\Debug\net7.0\mis321-finalexam-pt2-mnbrog.dll
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\bin\Debug\net7.0\mis321-finalexam-pt2-mnbrog.pdb
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\obj\Debug\net7.0\mis321-finalexam-pt2-mnbrog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\obj\Debug\net7.0\mis321-finalexam-pt2-mnbrog.AssemblyInfoInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\obj\Debug\net7.0\mis321-finalexam-pt2-mnbrog.AssemblyInfo.cs
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\obj\Debug\net7.0\mis321-finalexam-pt2-mnbrog.csproj.CoreCompileInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\obj\Debug\net7.0\mis321-finalexam-pt2-mnbrog.dll
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\obj\Debug\net7.0\refint\mis321-finalexam-pt2-mnbrog.dll
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\obj\Debug\net7.0\mis321-finalexam-pt2-mnbrog.pdb
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\obj\Debug\net7.0\mis321-finalexam-pt2-mnbrog.genruntimeconfig.cache
+C:\Users\Michael Brogan\2024SpringRepo\mis321-finalexam-pt2-mnbrog\obj\Debug\net7.0\ref\mis321-finalexam-pt2-mnbrog.dll

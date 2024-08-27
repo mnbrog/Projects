@@ -1,0 +1,28 @@
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.AssemblyInfoInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.AssemblyInfo.cs
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\bin\Debug\net7.0\MVC+Observer Pattern.exe
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\bin\Debug\net7.0\MVC+Observer Pattern.deps.json
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\bin\Debug\net7.0\MVC+Observer Pattern.runtimeconfig.json
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\bin\Debug\net7.0\MVC+Observer Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\bin\Debug\net7.0\MVC+Observer Pattern.pdb
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\obj\Debug\net7.0\refint\MVC+Observer Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.pdb
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.genruntimeconfig.cache
+C:\Users\Michael Brogan\2024SpringRepo\MVC+Observer Pattern\obj\Debug\net7.0\ref\MVC+Observer Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\bin\Debug\net7.0\MVC+Observer Pattern.exe
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\bin\Debug\net7.0\MVC+Observer Pattern.deps.json
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\bin\Debug\net7.0\MVC+Observer Pattern.runtimeconfig.json
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\bin\Debug\net7.0\MVC+Observer Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\bin\Debug\net7.0\MVC+Observer Pattern.pdb
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.AssemblyInfoInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.AssemblyInfo.cs
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\obj\Debug\net7.0\refint\MVC+Observer Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.pdb
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\obj\Debug\net7.0\MVC+Observer Pattern.genruntimeconfig.cache
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\MVC+Observer Pattern\obj\Debug\net7.0\ref\MVC+Observer Pattern.dll

@@ -1,0 +1,14 @@
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\bin\Debug\net7.0\Strategy + Factory Pattern.exe
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\bin\Debug\net7.0\Strategy + Factory Pattern.deps.json
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\bin\Debug\net7.0\Strategy + Factory Pattern.runtimeconfig.json
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\bin\Debug\net7.0\Strategy + Factory Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\bin\Debug\net7.0\Strategy + Factory Pattern.pdb
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\obj\Debug\net7.0\Strategy + Factory Pattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\obj\Debug\net7.0\Strategy + Factory Pattern.AssemblyInfoInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\obj\Debug\net7.0\Strategy + Factory Pattern.AssemblyInfo.cs
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\obj\Debug\net7.0\Strategy + Factory Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\obj\Debug\net7.0\Strategy + Factory Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\obj\Debug\net7.0\refint\Strategy + Factory Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\obj\Debug\net7.0\Strategy + Factory Pattern.pdb
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\obj\Debug\net7.0\Strategy + Factory Pattern.genruntimeconfig.cache
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Strategy + Factory Pattern\obj\Debug\net7.0\ref\Strategy + Factory Pattern.dll

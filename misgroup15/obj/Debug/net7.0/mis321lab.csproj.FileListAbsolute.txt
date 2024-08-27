@@ -1,0 +1,14 @@
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\bin\Debug\net7.0\mis321lab.exe
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\bin\Debug\net7.0\mis321lab.deps.json
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\bin\Debug\net7.0\mis321lab.runtimeconfig.json
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\bin\Debug\net7.0\mis321lab.dll
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\bin\Debug\net7.0\mis321lab.pdb
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\obj\Debug\net7.0\mis321lab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\obj\Debug\net7.0\mis321lab.AssemblyInfoInputs.cache
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\obj\Debug\net7.0\mis321lab.AssemblyInfo.cs
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\obj\Debug\net7.0\mis321lab.csproj.CoreCompileInputs.cache
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\obj\Debug\net7.0\mis321lab.dll
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\obj\Debug\net7.0\refint\mis321lab.dll
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\obj\Debug\net7.0\mis321lab.pdb
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\obj\Debug\net7.0\mis321lab.genruntimeconfig.cache
+C:\Users\natas\Desktop\MIS321Repos\mis321lab\obj\Debug\net7.0\ref\mis321lab.dll

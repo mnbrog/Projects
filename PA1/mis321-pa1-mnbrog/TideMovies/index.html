@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TideMovies - Track and Rate Movies</title>
+<link rel="stylesheet" href="../TideMovies/css/main.css">
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Tide Movies</h1>
+    <img src="../TideMovies/assets/gifs/dca2abb3-0a10-42fd-9be5-6ef89d80d439_600x294.gif" alt="run forrest" /> <!-- GIF added here -->
+    <!-- Movies will be added here -->
+  </div>
+  
+  <!-- Adds form and movie list structure -->
+  <form id="add-movie-form" class="form-container">
+    <div class="form-group">
+      <div class="input-container">
+        <input type="text" id="movie-name" placeholder="Movie Name" required class="input-field movie-name">
+      </div>
+      <div class="input-container">
+        <input type="number" id="movie-rating" placeholder="Rating" required min="0" max="100" class="input-field movie-rating">
+      </div>
+      <div class="input-container">
+        <input type="date" placeholder="Enter Date" id="movie-date-released" required class="input-field movie-date-released">
+      </div>
+    </div>
+    <button type="submit" class="submit-button">
+      Add Movie
+    </button>
+  </form>
+  <div id="movie-list" class="movie-list">
+  </div>
+  
+<!-- Movie Item Template -->
+<template id="movie-template">
+  <div class="movie-item">
+    <h2 data-movie-name></h2>
+    <p data-movie-rating></p>
+    <p data-movie-date-released></p>
+    <div class="button-group">
+      <button data-favorite-button class="favorite-button">Favorite</button>
+      <a data-watch-button class="watch-button" target="_blank" rel="noopener noreferrer">Watch</a>
+      <button data-delete-button class="delete-button">Delete</button>
+    </div>
+  </div>
+</template>
+  <footer class="footer">
+    <div class="container">
+      &copy; 2024 <a href="https://MichaelNBrogan.com" class="footer-link">MichaelNBrogan.com</a>. All rights reserved.
+    </div>
+    <button onclick="scrollToTop()" class="go-to-top"> Go to Top</button>
+  </footer>
+  
+  <script src="../TideMovies/js/app.js"></script>
+</body>
+</html>

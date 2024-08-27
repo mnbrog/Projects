@@ -1,0 +1,263 @@
+body {
+    background-color: #ffffff; /* Light cream background for a warm feel */
+    color: #333; /* Darker text for contrast */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #c75146; /* Warm red for headings */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+  }
+  
+  form {
+    background-color: #f3f4f6; /* Light gray for form background */
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="button"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #c75146;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  button[type="submit"],
+  button[data-favorite-button],
+  button[data-cook-button],
+  button[data-buy-button],
+  button[data-delete-button] {
+    background-color: #c75146; /* Warm red for buttons */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 8px;
+  }
+  
+  button[type="submit"]:hover,
+  button[data-favorite-button]:hover,
+  button[data-cook-button]:hover,
+  button[data-buy-button]:hover,
+  button[data-delete-button]:hover {
+    background-color: #9a3e31; /* Darker shade for hover effect */
+  }
+  
+  .recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+  }
+  
+  .recipe-item {
+    background-color: #f3f4f6; /* Light gray for recipe cards */
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .recipe-item h2, .recipe-item p {
+    margin-bottom: 8px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #c75146;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .go-to-top:hover {
+    opacity: 1;
+  }
+  /* Additional styles for input group */
+  .input-group {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-field.ingredient-input {
+    flex-grow: 1;
+    
+  }
+  /* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  .close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .input-container, .input-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px; /* Adjust as needed for spacing */
+  }
+  
+  .input-field {
+    flex-grow: 1; /* Allows the input to fill available space */
+    margin-right: 8px; /* Space between input and button, adjust as needed */
+  }
+  
+  .add-ingredient-btn, .remove-ingredient-btn {
+    padding: 8px 12px; /* Adjust size to match input field height */
+    cursor: pointer;
+    align-items: end;
+    /* Additional button styling here to match the form's theme */
+  }
+  .modal { display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); }
+
+.modal-content { background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; }
+
+.close { color: #aaa; float: right; font-size: 28px; font-weight: bold; }
+
+.close:hover, .close:focus { color: black; text-decoration: none; cursor: pointer; }
+.recipes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin: auto;
+  max-width: 1200px; /* Adjust based on your design */
+}
+
+
+.recipe-card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 240px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.recipe-card .content {
+  padding: 10px;
+}
+
+.recipe-card .content h4 {
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.recipe-card .details-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.modal { display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); }
+.modal-content { background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; }
+.close { color: #aaa; float: right; font-size: 28px; font-weight: bold; }
+.close:hover, .close:focus { color: black; text-decoration: none; cursor: pointer; }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}

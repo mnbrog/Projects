@@ -1,0 +1,14 @@
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\bin\Debug\net7.0\Adapter + Decorator Pattern.exe
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\bin\Debug\net7.0\Adapter + Decorator Pattern.deps.json
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\bin\Debug\net7.0\Adapter + Decorator Pattern.runtimeconfig.json
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\bin\Debug\net7.0\Adapter + Decorator Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\bin\Debug\net7.0\Adapter + Decorator Pattern.pdb
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\obj\Debug\net7.0\Adapter + Decorator Pattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\obj\Debug\net7.0\Adapter + Decorator Pattern.AssemblyInfoInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\obj\Debug\net7.0\Adapter + Decorator Pattern.AssemblyInfo.cs
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\obj\Debug\net7.0\Adapter + Decorator Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\obj\Debug\net7.0\Adapter + Decorator Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\obj\Debug\net7.0\refint\Adapter + Decorator Pattern.dll
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\obj\Debug\net7.0\Adapter + Decorator Pattern.pdb
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\obj\Debug\net7.0\Adapter + Decorator Pattern.genruntimeconfig.cache
+C:\Users\Michael Brogan\2024SpringRepo\Combined Design Patterns\Adapter + Decorator Pattern\obj\Debug\net7.0\ref\Adapter + Decorator Pattern.dll

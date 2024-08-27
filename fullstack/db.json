@@ -1,0 +1,6 @@
+{
+    "pets": [
+      { "id": "1", "name": "coop", "breed": "golden" },
+      { "id": "2", "name": "sophie", "breed": "tarrier" }
+    ]
+  }

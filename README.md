@@ -1,16 +1,13 @@
-# My Project Repository
+# C# Project Repository
 
-Welcome to my project repository! This repo contains various projects I've worked on during my studies and professional development. 
-Each project is stored in its own folder and serves different purposes, such as backend API development, front-end work, JavaScript practice, OOP patterns, and more.
+Welcome to my C# project repository! This repo contains various projects that I've worked on using C#, demonstrating my skills in object-oriented programming, design patterns, API development, and fullstack application development. Each project folder contains a detailed breakdown of the project's purpose, technologies used, and how to run the project locally.
 
 ## Table of Contents
 
 - [Backend API Projects](#backend-api-projects)
-- [JavaScript and Web Development](#javascript-and-web-development)
-- [Design Patterns](#design-patterns)
-- [Object-Oriented Programming](#object-oriented-programming)
-- [Database Projects](#database-projects)
+- [OOP and Design Patterns](#oop-and-design-patterns)
 - [Fullstack Applications](#fullstack-applications)
+- [Database Projects](#database-projects)
 - [Other Projects](#other-projects)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -20,86 +17,54 @@ Each project is stored in its own folder and serves different purposes, such as 
 ## Backend API Projects
 
 ### [Backend-api-inclass](./Backend-api-inclass)
-- **Description**: An in-class backend API project that demonstrates how to create, read, update, and delete operations using RESTful architecture.
-- **Technologies Used**: `Java`, `Spring Boot`, `Postman`
-
-### [Fetchpractice](./Fetchpractice)
-- **Description**: A practice project for working with the `fetch` API to make asynchronous calls in JavaScript.
-- **Technologies Used**: `JavaScript`, `HTML/CSS`
+- **Description**: A backend API project built using C# and .NET Core, demonstrating CRUD operations and RESTful API architecture.
+- **Technologies Used**: `C#`, `.NET Core`, `Entity Framework`, `Postman`
 
 ---
 
-## JavaScript and Web Development
-
-### [BasicJavascript](./BasicJavascript/client)
-- **Description**: Basic JavaScript exercises and client-side applications to reinforce foundational JS skills.
-- **Technologies Used**: `JavaScript`, `HTML`
-
-### [BasicsDay1](./BasicsDay1/html/client)
-- **Description**: First day basic HTML, CSS, and JavaScript practice.
-- **Technologies Used**: `HTML`, `CSS`, `JavaScript`
-
----
-
-## Design Patterns
-
-### [Combined Design Patterns](./Combined%20Design%20Patterns)
-- **Description**: A project showcasing multiple design patterns combined for demonstration purposes.
-- **Technologies Used**: `Java`, Design Patterns (`Singleton`, `Factory`, etc.)
-
-### [Compound Design Patterns](./CompounddesignPatterns)
-- **Description**: A deeper dive into compound design patterns such as `MVC`, `Observer`, and others.
-- **Technologies Used**: `Java`
-
----
-
-## Object-Oriented Programming
+## OOP and Design Patterns
 
 ### [OOP](./OOP)
-- **Description**: Projects demonstrating the principles of Object-Oriented Programming, including encapsulation, inheritance, and polymorphism.
-- **Technologies Used**: `Java`
+- **Description**: This project demonstrates the principles of Object-Oriented Programming (OOP) in C#, including encapsulation, inheritance, polymorphism, and abstraction.
+- **Technologies Used**: `C#`, `.NET Core`
 
-### [OOPp2](./OOPp2)
-- **Description**: Continuation of Object-Oriented Programming projects with advanced concepts.
-- **Technologies Used**: `Java`
-
----
-
-## Database Projects
-
-### [mysql](./mysql)
-- **Description**: Basic SQL queries and database design.
-- **Technologies Used**: `MySQL`
-
-### [database](./database)
-- **Description**: A project focusing on relational database management and SQL queries.
-- **Technologies Used**: `MySQL`
+### [Compound Design Patterns](./CompounddesignPatterns)
+- **Description**: An implementation of various design patterns such as `Singleton`, `Factory`, `Observer`, and `MVC` in C# to demonstrate the use of software design best practices.
+- **Technologies Used**: `C#`
 
 ---
 
 ## Fullstack Applications
 
 ### [fullstack](./fullstack)
-- **Description**: A full-stack application demonstrating the integration of a backend API with a frontend interface.
-- **Technologies Used**: `JavaScript`, `HTML/CSS`, `Node.js`, `Express`
+- **Description**: A full-stack web application built using C#, .NET Core for the backend, and a front-end framework for the user interface. It integrates API services and a database for persistent data storage.
+- **Technologies Used**: `C#`, `.NET Core`, `Entity Framework`, `HTML/CSS`, `JavaScript`
+
+---
+
+## Database Projects
+
+### [mysql](./mysql)
+- **Description**: SQL-based projects using MySQL to demonstrate proficiency in database design, query writing, and database management in conjunction with C# applications.
+- **Technologies Used**: `MySQL`, `Entity Framework`, `C#`
+
+### [database](./database)
+- **Description**: This project focuses on designing and managing relational databases, and how to connect and perform operations using C#.
+- **Technologies Used**: `MySQL`, `Entity Framework`, `C#`
 
 ---
 
 ## Other Projects
 
 ### [CookBook](./CookBook)
-- **Description**: A recipe management application allowing users to add, modify, and delete their favorite recipes.
-- **Technologies Used**: `JavaScript`, `HTML/CSS`
-
-### [pizza](./pizza)
-- **Description**: A fun project for creating an interactive pizza ordering experience.
-- **Technologies Used**: `JavaScript`, `HTML/CSS`
+- **Description**: A C# project that allows users to create, edit, and delete recipes, simulating a recipe management system.
+- **Technologies Used**: `C#`, `.NET Core`, `Entity Framework`, `HTML/CSS`
 
 ---
 
 ## Contributing
 
-If you’d like to contribute to any of the projects in this repository, feel free to fork the repo and submit a pull request. For major changes, please open an issue to discuss what you'd like to change.
+If you’d like to contribute to any of the projects in this repository, feel free to fork the repo and submit a pull request. For major changes, please open an issue first to discuss the changes you'd like to make.
 
 ---
 

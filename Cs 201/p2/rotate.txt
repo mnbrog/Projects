@@ -1,0 +1,19 @@
+           [A]
+      B               C
+[D ]     [E]     [F]     [G]
+
+
+could replace B with best replacement
+but that would be more work then detaching E and reattaching it
+to A on the left
+
+
+A would necessarilly have an open child slot
+E is still expressed as greater than B
+
+
+
+              B 
+      [D]           [A]
+         ->    [E]       C
+                     [F]     [G]

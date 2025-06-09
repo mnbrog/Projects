@@ -1,0 +1,17 @@
+     G
+ [P]   U
+[X]
+
+
+=>
+
+   [P]
+ [x]  G
+       U
+
+<SWAP COLOR OF G & P>
+
+
+     P 
+ [x]  [G]
+        U

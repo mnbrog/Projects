@@ -1,0 +1,165 @@
+main.cpp: In function ‘int main()’:
+main.cpp:10:39: error: expected ‘,’ or ‘;’ before ‘T2’
+   10 |         RBTree<string,int> T1(K,V,10) T2;
+      |                                       ^~
+main.cpp:12:33: error: ‘T2’ was not declared in this scope; did you mean ‘T1’?
+   12 |         for(int i=0; i<10; i++) T2.insert(K[i],V[i]);
+      |                                 ^~
+      |                                 T1
+main.cpp:15:20: error: no matching function for call to ‘RBTree<std::__cxx11::basic_string<char>, int>::preorder()’
+   15 |         T1.preorder();
+      |         ~~~~~~~~~~~^~
+In file included from main.cpp:4:
+rbt.cpp:192:6: note: candidate: ‘void RBTree<keytype, valuetype>::preorder(Node<keytype, valuetype>*) [with keytype = std::__cxx11::basic_string<char>; valuetype = int]’
+  192 | void preorder(Node<keytype,valuetype> *node) {
+      |      ^~~~~~~~
+rbt.cpp:192:6: note:   candidate expects 1 argument, 0 provided
+main.cpp:21:9: error: ‘T2’ was not declared in this scope; did you mean ‘T1’?
+   21 |         T2.preorder();
+      |         ^~
+      |         T1
+main.cpp:30:24: error: ‘int RBTree<keytype, valuetype>::rank(keytype) [with keytype = std::__cxx11::basic_string<char>; valuetype = int]’ is private within this context
+   30 |         cout << T1.rank("C") << endl;
+      |                 ~~~~~~~^~~~~
+rbt.cpp:154:5: note: declared private here
+  154 | int rank(keytype k) {
+      |     ^~~~
+main.cpp:33:26: error: ‘keytype RBTree<keytype, valuetype>::select(int) [with keytype = std::__cxx11::basic_string<char>; valuetype = int]’ is private within this context
+   33 |         cout << T1.select(3) << endl;
+      |                 ~~~~~~~~~^~~
+rbt.cpp:158:9: note: declared private here
+  158 | keytype select(int pos) {
+      |         ^~~~~~
+main.cpp:60:30: error: ‘keytype* RBTree<keytype, valuetype>::successor(keytype) [with keytype = std::__cxx11::basic_string<char>; valuetype = int]’ is private within this context
+   60 |         cout <<*(T1.successor("C"))<<endl;
+      |                  ~~~~~~~~~~~~^~~~~
+rbt.cpp:238:10: note: declared private here
+  238 | keytype* RBTree<keytype, valuetype>::successor(keytype k) {
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+main.cpp:63:32: error: ‘keytype* RBTree<keytype, valuetype>::predecessor(keytype) [with keytype = std::__cxx11::basic_string<char>; valuetype = int]’ is private within this context
+   63 |         cout <<*(T1.predecessor("C"))<<endl;
+      |                  ~~~~~~~~~~~~~~^~~~~
+rbt.cpp:259:10: note: declared private here
+  259 | keytype* RBTree<keytype, valuetype>::predecessor(keytype k) {
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+main.cpp:69:42: error: ‘void RBTree<keytype, valuetype>::insert(keytype, valuetype) [with keytype = std::__cxx11::basic_string<char>; valuetype = std::__cxx11::basic_string<char>]’ is private within this context
+   69 |         for(int i=0; i<10; i++) T3.insert(K[i],K[i]);
+      |                                 ~~~~~~~~~^~~~~~~~~~~
+rbt.cpp:139:6: note: declared private here
+  139 | void insert(keytype k, valuetype v) {
+      |      ^~~~~~
+main.cpp:72:20: error: no matching function for call to ‘RBTree<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::preorder()’
+   72 |         T3.preorder();
+      |         ~~~~~~~~~~~^~
+rbt.cpp:192:6: note: candidate: ‘void RBTree<keytype, valuetype>::preorder(Node<keytype, valuetype>*) [with keytype = std::__cxx11::basic_string<char>; valuetype = std::__cxx11::basic_string<char>]’
+  192 | void preorder(Node<keytype,valuetype> *node) {
+      |      ^~~~~~~~
+rbt.cpp:192:6: note:   candidate expects 1 argument, 0 provided
+main.cpp:74:20: error: no matching function for call to ‘RBTree<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::preorder()’
+   74 |         T4.preorder();
+      |         ~~~~~~~~~~~^~
+rbt.cpp:192:6: note: candidate: ‘void RBTree<keytype, valuetype>::preorder(Node<keytype, valuetype>*) [with keytype = std::__cxx11::basic_string<char>; valuetype = std::__cxx11::basic_string<char>]’
+  192 | void preorder(Node<keytype,valuetype> *node) {
+      |      ^~~~~~~~
+rbt.cpp:192:6: note:   candidate expects 1 argument, 0 provided
+main.cpp:78:45: error: ‘void RBTree<keytype, valuetype>::insert(keytype, valuetype) [with keytype = int; valuetype = int]’ is private within this context
+   78 |         for (int i=1;i<1001000;i++) X.insert(i,i);
+      |                                     ~~~~~~~~^~~~~
+rbt.cpp:139:6: note: declared private here
+  139 | void insert(keytype k, valuetype v) {
+      |      ^~~~~~
+main.cpp:80:26: error: ‘int RBTree<keytype, valuetype>::rank(keytype) [with keytype = int; valuetype = int]’ is private within this context
+   80 |                 if(X.rank(i) != i) cout << "Rank error" << endl;
+      |                    ~~~~~~^~~
+rbt.cpp:154:5: note: declared private here
+  154 | int rank(keytype k) {
+      |     ^~~~
+main.cpp:81:28: error: ‘keytype RBTree<keytype, valuetype>::select(int) [with keytype = int; valuetype = int]’ is private within this context
+   81 |                 if(X.select(i) != i) cout << "Select error" << endl;
+      |                    ~~~~~~~~^~~
+rbt.cpp:158:9: note: declared private here
+  158 | keytype select(int pos) {
+      |         ^~~~~~
+main.cpp:82:30: error: ‘valuetype* RBTree<keytype, valuetype>::search(keytype) [with keytype = int; valuetype = int]’ is private within this context
+   82 |                 if(*(X.search(i)) != i) cout << "Search error" << endl;
+      |                      ~~~~~~~~^~~
+rbt.cpp:128:12: note: declared private here
+  128 | valuetype* search(keytype k) {
+      |            ^~~~~~
+rbt.cpp: In instantiation of ‘int RBTree<keytype, valuetype>::rank(keytype) [with keytype = std::__cxx11::basic_string<char>; valuetype = int]’:
+main.cpp:30:17:   required from here
+rbt.cpp:155:19: error: ‘getRank’ was not declared in this scope
+  155 |     return getRank(root, k);
+      |            ~~~~~~~^~~~~~~~~
+rbt.cpp: In instantiation of ‘keytype RBTree<keytype, valuetype>::select(int) [with keytype = std::__cxx11::basic_string<char>; valuetype = int]’:
+main.cpp:33:19:   required from here
+rbt.cpp:159:26: error: invalid use of member function ‘int RBTree<keytype, valuetype>::size() [with keytype = std::__cxx11::basic_string<char>; valuetype = int]’ (did you forget the ‘()’ ?)
+  159 |     if (pos < 1 || pos > size) {
+      |                          ^~~~
+      |                              ()
+rbt.cpp: In instantiation of ‘keytype* RBTree<keytype, valuetype>::successor(keytype) [with keytype = std::__cxx11::basic_string<char>; valuetype = int]’:
+main.cpp:60:23:   required from here
+rbt.cpp:239:48: error: ‘searchNode’ was not declared in this scope; did you mean ‘selectNode’?
+  239 |     Node<keytype, valuetype>* node = searchNode(root, k);
+      |                                      ~~~~~~~~~~^~~~~~~~~
+      |                                      selectNode
+rbt.cpp:243:25: error: ‘treeMin’ was not declared in this scope
+  243 |         return &(treeMin(node->right)->key);
+      |                  ~~~~~~~^~~~~~~~~~~~~
+rbt.cpp: In instantiation of ‘keytype* RBTree<keytype, valuetype>::predecessor(keytype) [with keytype = std::__cxx11::basic_string<char>; valuetype = int]’:
+main.cpp:63:25:   required from here
+rbt.cpp:260:48: error: ‘searchNode’ was not declared in this scope; did you mean ‘selectNode’?
+  260 |     Node<keytype, valuetype>* node = searchNode(root, k);
+      |                                      ~~~~~~~~~~^~~~~~~~~
+      |                                      selectNode
+rbt.cpp:264:25: error: ‘treeMax’ was not declared in this scope
+  264 |         return &(treeMax(node->left)->key);
+      |                  ~~~~~~~^~~~~~~~~~~~
+rbt.cpp: In instantiation of ‘void RBTree<keytype, valuetype>::insert(keytype, valuetype) [with keytype = std::__cxx11::basic_string<char>; valuetype = std::__cxx11::basic_string<char>]’:
+main.cpp:69:35:   required from here
+rbt.cpp:140:35: error: no matching function for call to ‘Node<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::Node(std::__cxx11::basic_string<char>&, std::__cxx11::basic_string<char>&)’
+  140 |     Node<keytype, valuetype>* z = new Node<keytype, valuetype>(k, v);
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rbt.cpp:16:5: note: candidate: ‘Node<keytype, valuetype>::Node(keytype, valuetype, Color, Node<keytype, valuetype>*, Node<keytype, valuetype>*, Node<keytype, valuetype>*) [with keytype = std::__cxx11::basic_string<char>; valuetype = std::__cxx11::basic_string<char>]’
+   16 |     Node(keytype k, valuetype v, Color c, Node *l, Node *r, Node *p)
+      |     ^~~~
+rbt.cpp:16:5: note:   candidate expects 6 arguments, 2 provided
+rbt.cpp:10:8: note: candidate: ‘Node<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::Node(const Node<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)’
+   10 | struct Node {
+      |        ^~~~
+rbt.cpp:10:8: note:   candidate expects 1 argument, 2 provided
+rbt.cpp:10:8: note: candidate: ‘Node<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::Node(Node<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&&)’
+rbt.cpp:10:8: note:   candidate expects 1 argument, 2 provided
+rbt.cpp: In instantiation of ‘void RBTree<keytype, valuetype>::insert(keytype, valuetype) [with keytype = int; valuetype = int]’:
+main.cpp:78:38:   required from here
+rbt.cpp:140:35: error: no matching function for call to ‘Node<int, int>::Node(int&, int&)’
+  140 |     Node<keytype, valuetype>* z = new Node<keytype, valuetype>(k, v);
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rbt.cpp:16:5: note: candidate: ‘Node<keytype, valuetype>::Node(keytype, valuetype, Color, Node<keytype, valuetype>*, Node<keytype, valuetype>*, Node<keytype, valuetype>*) [with keytype = int; valuetype = int]’
+   16 |     Node(keytype k, valuetype v, Color c, Node *l, Node *r, Node *p)
+      |     ^~~~
+rbt.cpp:16:5: note:   candidate expects 6 arguments, 2 provided
+rbt.cpp:10:8: note: candidate: ‘constexpr Node<int, int>::Node(const Node<int, int>&)’
+   10 | struct Node {
+      |        ^~~~
+rbt.cpp:10:8: note:   candidate expects 1 argument, 2 provided
+rbt.cpp:10:8: note: candidate: ‘constexpr Node<int, int>::Node(Node<int, int>&&)’
+rbt.cpp:10:8: note:   candidate expects 1 argument, 2 provided
+rbt.cpp: In instantiation of ‘int RBTree<keytype, valuetype>::rank(keytype) [with keytype = int; valuetype = int]’:
+main.cpp:80:12:   required from here
+rbt.cpp:155:19: error: ‘getRank’ was not declared in this scope
+  155 |     return getRank(root, k);
+      |            ~~~~~~~^~~~~~~~~
+rbt.cpp: In instantiation of ‘keytype RBTree<keytype, valuetype>::select(int) [with keytype = int; valuetype = int]’:
+main.cpp:81:14:   required from here
+rbt.cpp:159:26: error: invalid use of member function ‘int RBTree<keytype, valuetype>::size() [with keytype = int; valuetype = int]’ (did you forget the ‘()’ ?)
+  159 |     if (pos < 1 || pos > size) {
+      |                          ^~~~
+      |                              ()
+rbt.cpp: In instantiation of ‘valuetype* RBTree<keytype, valuetype>::search(keytype) [with keytype = int; valuetype = int]’:
+main.cpp:82:16:   required from here
+rbt.cpp:129:48: error: ‘searchNode’ was not declared in this scope; did you mean ‘selectNode’?
+  129 |     Node<keytype, valuetype>* node = searchNode(root, k);
+      |                                      ~~~~~~~~~~^~~~~~~~~
+      |                                      selectNode
+make: *** [makefile:2: compile] Error 1

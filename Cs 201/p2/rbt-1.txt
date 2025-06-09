@@ -1,0 +1,44 @@
+RL case 
+    
+      30
+20          40  (DELETE 20)
+       [35]
+
+
+
+      30
+**          40  (ROT_R + recolor)
+       [35]
+
+
+      30
+**          35          (ROT_L + recolor)
+               [40] 
+
+      35
+30          40
+                   
+
+
+RL case  (+ extra black)
+    
+      30
+20          40  (DELETE 20)
+       [35]   60(ignore this I guess)
+
+
+
+      30
+**          40  (ROT_R + recolor)
+       [35]    60(ignore this I guess)
+
+
+      30
+**          35          (ROT_L + recolor)
+               [40]
+                    60(ignore this I guess)
+
+      35
+30          40          (ROT_L + recolor)
+                60 (ignore this I guess)
+                   

@@ -197,4 +197,4 @@ If you have any questions or feedback, feel free to reach out to me:
 * **Email**: [mnbrogan32@gmail.com](mailto:mnbrogan32@gmail.com)
 * **GitHub**: [mnbrog](https://github.com/mnbrog)
 * **LinkedIn**: [Michael Brogan](https://www.linkedin.com/in/michaelbr0gan/)
-* **Website**: michaelnbrogan.com
+* **Website**: [michaelnbrogan.com](michaelnbrogan.com)
